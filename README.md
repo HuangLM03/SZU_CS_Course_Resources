@@ -1,6 +1,6 @@
 # SZU_CS_Course_Resources
 <div align="center">
-    <a href="https://github.com/HuangLM03/SZU_CS_Course_Resources"> <img src="https://badgen.net/github/stars/HuangLM03/SZU_CS_Course_Resources?icon=github&color=8a14ab"></a>
+    <a href="https://github.com/HuangLM03/SZU_CS_Course_Resources"> <img src="https://badgen.net/github/stars/HuangLM03/SZU_CS_Course_Resources?icon=github&color=4a8a1b"></a>
     <a href="https://github.com/HuangLM03/SZU_CS_Course_Resources"> <img src="https://badgen.net/github/forks/HuangLM03/SZU_CS_Course_Resources?icon=github&color=4ab8a1"></a>
     <a href="https://github.com/HuangLM03/SZU_CS_Course_Resources"> <img src="https://img.shields.io/github/repo-size/HuangLM03/SZU_CS_Course_Resources"></a>
     <a href="https://github.com/HuangLM03/SZU_CS_Course_Resources"> <img src="https://img.shields.io/github/contributors/HuangLM03/SZU_CS_Course_Resources"></a>
