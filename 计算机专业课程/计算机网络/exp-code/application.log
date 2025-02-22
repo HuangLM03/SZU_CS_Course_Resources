@@ -1,0 +1,437 @@
+2024/04/07 23:44:18 Operation completed successfully.
+2024/04/07 23:44:18 Starting server on :8080
+2024/04/07 23:44:18 Received request for: /download/download.m3u8
+2024/04/07 23:44:18 segmentName =  ocean-1080p-8000k-0.ts
+2024/04/07 23:44:18 segmentLength =  3230968
+2024/04/07 23:44:18 Wait for the video playing...
+2024/04/07 23:44:18 Received request for: /download/download.m3u8
+2024/04/07 23:44:18 Video started playing
+2024/04/07 23:44:18 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:18 Wait for BufferSizeChannel
+2024/04/07 23:44:18 Received request for: /download/ocean-1080p-8000k-0.ts
+2024/04/07 23:44:18 in updateBufferSize, the remainBuffer is  0
+2024/04/07 23:44:18 BufferSizeChannel has value:  0
+2024/04/07 23:44:18 segmentName =  ocean-1080p-8000k-2.ts
+2024/04/07 23:44:18 segmentLength =  540500
+2024/04/07 23:44:18 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:18 Wait for BufferSizeChannel
+2024/04/07 23:44:18 in updateBufferSize, the remainBuffer is  0
+2024/04/07 23:44:18 BufferSizeChannel has value:  0
+2024/04/07 23:44:18 segmentName =  ocean-1080p-8000k-3.ts
+2024/04/07 23:44:18 segmentLength =  630364
+2024/04/07 23:44:18 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:18 Wait for BufferSizeChannel
+2024/04/07 23:44:18 in updateBufferSize, the remainBuffer is  0
+2024/04/07 23:44:18 BufferSizeChannel has value:  0
+2024/04/07 23:44:18 segmentName =  ocean-1080p-8000k-4.ts
+2024/04/07 23:44:18 segmentLength =  680372
+2024/04/07 23:44:18 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:18 Wait for BufferSizeChannel
+2024/04/07 23:44:18 in updateBufferSize, the remainBuffer is  998.71
+2024/04/07 23:44:18 BufferSizeChannel has value:  998.71
+2024/04/07 23:44:18 segmentName =  ocean-1080p-8000k-5.ts
+2024/04/07 23:44:18 segmentLength =  768544
+2024/04/07 23:44:18 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:18 Wait for BufferSizeChannel
+2024/04/07 23:44:18 in updateBufferSize, the remainBuffer is  965.1469999999999
+2024/04/07 23:44:18 BufferSizeChannel has value:  965.1469999999999
+2024/04/07 23:44:18 segmentName =  ocean-1080p-8000k-6.ts
+2024/04/07 23:44:18 segmentLength =  828704
+2024/04/07 23:44:18 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:18 Wait for BufferSizeChannel
+2024/04/07 23:44:18 in updateBufferSize, the remainBuffer is  935.369
+2024/04/07 23:44:18 BufferSizeChannel has value:  935.369
+2024/04/07 23:44:18 segmentName =  ocean-1080p-8000k-7.ts
+2024/04/07 23:44:18 segmentLength =  819492
+2024/04/07 23:44:18 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:18 Wait for BufferSizeChannel
+2024/04/07 23:44:18 in updateBufferSize, the remainBuffer is  906.602
+2024/04/07 23:44:18 BufferSizeChannel has value:  906.602
+2024/04/07 23:44:19 A blocking has been occured
+2024/04/07 23:44:19 Received request for: /download/download.m3u8
+2024/04/07 23:44:19 Received request for: /download/ocean-1080p-8000k-2.ts
+2024/04/07 23:44:19 Received request for: /download/ocean-1080p-8000k-3.ts
+2024/04/07 23:44:19 Received request for: /download/ocean-1080p-8000k-4.ts
+2024/04/07 23:44:19 Received request for: /download/ocean-1080p-8000k-5.ts
+2024/04/07 23:44:19 Received request for: /download/ocean-1080p-8000k-6.ts
+2024/04/07 23:44:19 Received request for: /download/download.m3u8
+2024/04/07 23:44:19 Received request for: /download/ocean-1080p-8000k-7.ts
+2024/04/07 23:44:20 Received request for: /download/download.m3u8
+2024/04/07 23:44:20 Received request for: /download/download.m3u8
+2024/04/07 23:44:21 Received request for: /download/download.m3u8
+2024/04/07 23:44:21 A blocking has been occured
+2024/04/07 23:44:21 A blocking has been occured
+2024/04/07 23:44:21 Received request for: /download/download.m3u8
+2024/04/07 23:44:21 Received request for: /download/download.m3u8
+2024/04/07 23:44:22 Received request for: /download/download.m3u8
+2024/04/07 23:44:22 Received request for: /download/download.m3u8
+2024/04/07 23:44:22 Received request for: /download/download.m3u8
+2024/04/07 23:44:23 Received request for: /download/download.m3u8
+2024/04/07 23:44:23 Received request for: /download/download.m3u8
+2024/04/07 23:44:23 Received request for: /download/download.m3u8
+2024/04/07 23:44:24 Received request for: /download/download.m3u8
+2024/04/07 23:44:24 Received request for: /download/download.m3u8
+2024/04/07 23:44:25 segmentName =  ocean-1080p-8000k-8.ts
+2024/04/07 23:44:25 segmentLength =  793172
+2024/04/07 23:44:25 BlockingTime is not 0, wait for the video restart...
+2024/04/07 23:44:25 sendToClient, messageType is  rebufferingTime
+2024/04/07 23:44:25 in notifyRebufferingTime, the rebufferingTime: 0 ms
+2024/04/07 23:44:25 Data written to channel: 0
+2024/04/07 23:44:25 Video contiune to start playing  0
+2024/04/07 23:44:25 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:25 Wait for BufferSizeChannel
+2024/04/07 23:44:25 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:25 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:25 Received request for: /download/download.m3u8
+2024/04/07 23:44:25 Received request for: /download/download.m3u8
+2024/04/07 23:44:26 segmentName =  ocean-360p-1000k-9.ts
+2024/04/07 23:44:26 segmentLength =  98888
+2024/04/07 23:44:26 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:26 Wait for BufferSizeChannel
+2024/04/07 23:44:26 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:26 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:27 segmentName =  ocean-360p-1000k-10.ts
+2024/04/07 23:44:27 segmentLength =  101144
+2024/04/07 23:44:27 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:27 Wait for BufferSizeChannel
+2024/04/07 23:44:27 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:27 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:27 Received request for: /download/download.m3u8
+2024/04/07 23:44:27 Received request for: /download/download.m3u8
+2024/04/07 23:44:28 segmentName =  ocean-360p-1000k-11.ts
+2024/04/07 23:44:28 segmentLength =  105468
+2024/04/07 23:44:28 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:28 Wait for BufferSizeChannel
+2024/04/07 23:44:28 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:28 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:29 segmentName =  ocean-360p-1000k-12.ts
+2024/04/07 23:44:29 segmentLength =  100580
+2024/04/07 23:44:29 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:29 Wait for BufferSizeChannel
+2024/04/07 23:44:29 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:29 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:29 Received request for: /download/download.m3u8
+2024/04/07 23:44:29 Received request for: /download/download.m3u8
+2024/04/07 23:44:30 segmentName =  ocean-360p-1000k-13.ts
+2024/04/07 23:44:30 segmentLength =  104152
+2024/04/07 23:44:30 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:30 Wait for BufferSizeChannel
+2024/04/07 23:44:30 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:30 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:31 segmentName =  ocean-360p-1000k-14.ts
+2024/04/07 23:44:31 segmentLength =  125396
+2024/04/07 23:44:31 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:31 Wait for BufferSizeChannel
+2024/04/07 23:44:31 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:31 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:31 Received request for: /download/download.m3u8
+2024/04/07 23:44:31 Received request for: /download/download.m3u8
+2024/04/07 23:44:33 segmentName =  ocean-360p-1000k-15.ts
+2024/04/07 23:44:33 segmentLength =  144008
+2024/04/07 23:44:33 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:33 Wait for BufferSizeChannel
+2024/04/07 23:44:33 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:33 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:33 Received request for: /download/download.m3u8
+2024/04/07 23:44:33 Received request for: /download/download.m3u8
+2024/04/07 23:44:34 segmentName =  ocean-360p-1000k-16.ts
+2024/04/07 23:44:34 segmentLength =  165252
+2024/04/07 23:44:34 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:34 Wait for BufferSizeChannel
+2024/04/07 23:44:34 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:34 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:35 Received request for: /download/download.m3u8
+2024/04/07 23:44:35 Received request for: /download/download.m3u8
+2024/04/07 23:44:36 segmentName =  ocean-360p-1000k-17.ts
+2024/04/07 23:44:36 segmentLength =  161680
+2024/04/07 23:44:36 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:36 Wait for BufferSizeChannel
+2024/04/07 23:44:36 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:36 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:37 Received request for: /download/download.m3u8
+2024/04/07 23:44:37 Received request for: /download/download.m3u8
+2024/04/07 23:44:38 segmentName =  ocean-360p-1000k-18.ts
+2024/04/07 23:44:38 segmentLength =  151716
+2024/04/07 23:44:38 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:38 Wait for BufferSizeChannel
+2024/04/07 23:44:38 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:38 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:39 segmentName =  ocean-360p-1000k-19.ts
+2024/04/07 23:44:39 segmentLength =  156040
+2024/04/07 23:44:39 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:39 Wait for BufferSizeChannel
+2024/04/07 23:44:39 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:39 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:39 Received request for: /download/download.m3u8
+2024/04/07 23:44:39 Received request for: /download/download.m3u8
+2024/04/07 23:44:41 segmentName =  ocean-360p-1000k-20.ts
+2024/04/07 23:44:41 segmentLength =  167132
+2024/04/07 23:44:41 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:41 Wait for BufferSizeChannel
+2024/04/07 23:44:41 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:41 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:41 Received request for: /download/download.m3u8
+2024/04/07 23:44:41 Received request for: /download/download.m3u8
+2024/04/07 23:44:43 segmentName =  ocean-360p-1000k-21.ts
+2024/04/07 23:44:43 segmentLength =  175404
+2024/04/07 23:44:43 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:43 Wait for BufferSizeChannel
+2024/04/07 23:44:43 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:43 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:43 Received request for: /download/download.m3u8
+2024/04/07 23:44:43 Received request for: /download/download.m3u8
+2024/04/07 23:44:44 segmentName =  ocean-360p-1000k-22.ts
+2024/04/07 23:44:44 segmentLength =  184992
+2024/04/07 23:44:44 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:44 Wait for BufferSizeChannel
+2024/04/07 23:44:44 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:44 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:45 segmentName =  ocean-360p-1000k-23.ts
+2024/04/07 23:44:45 segmentLength =  187060
+2024/04/07 23:44:45 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:45 Wait for BufferSizeChannel
+2024/04/07 23:44:45 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:45 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:45 Received request for: /download/download.m3u8
+2024/04/07 23:44:45 Received request for: /download/download.m3u8
+2024/04/07 23:44:47 segmentName =  ocean-720p-5000k-24.ts
+2024/04/07 23:44:47 segmentLength =  968952
+2024/04/07 23:44:47 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:47 Wait for BufferSizeChannel
+2024/04/07 23:44:47 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:47 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:47 segmentName =  ocean-360p-1000k-25.ts
+2024/04/07 23:44:47 segmentLength =  177660
+2024/04/07 23:44:47 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:47 Wait for BufferSizeChannel
+2024/04/07 23:44:47 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:47 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:47 Received request for: /download/download.m3u8
+2024/04/07 23:44:47 Received request for: /download/download.m3u8
+2024/04/07 23:44:49 segmentName =  ocean-720p-5000k-26.ts
+2024/04/07 23:44:49 segmentLength =  910860
+2024/04/07 23:44:49 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:49 Wait for BufferSizeChannel
+2024/04/07 23:44:49 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:49 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:49 Received request for: /download/download.m3u8
+2024/04/07 23:44:49 Received request for: /download/download.m3u8
+2024/04/07 23:44:49 segmentName =  ocean-360p-1000k-27.ts
+2024/04/07 23:44:49 segmentLength =  158860
+2024/04/07 23:44:49 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:49 Wait for BufferSizeChannel
+2024/04/07 23:44:49 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:49 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:51 segmentName =  ocean-720p-5000k-28.ts
+2024/04/07 23:44:51 segmentLength =  828516
+2024/04/07 23:44:51 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:51 Wait for BufferSizeChannel
+2024/04/07 23:44:51 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:51 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:51 Received request for: /download/download.m3u8
+2024/04/07 23:44:51 Received request for: /download/download.m3u8
+2024/04/07 23:44:52 segmentName =  ocean-360p-1000k-29.ts
+2024/04/07 23:44:52 segmentLength =  171080
+2024/04/07 23:44:52 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:52 Wait for BufferSizeChannel
+2024/04/07 23:44:52 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:52 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:53 segmentName =  ocean-720p-5000k-30.ts
+2024/04/07 23:44:53 segmentLength =  757264
+2024/04/07 23:44:53 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:53 Wait for BufferSizeChannel
+2024/04/07 23:44:53 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:53 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:53 Received request for: /download/download.m3u8
+2024/04/07 23:44:53 Received request for: /download/download.m3u8
+2024/04/07 23:44:53 segmentName =  ocean-360p-1000k-31.ts
+2024/04/07 23:44:53 segmentLength =  146452
+2024/04/07 23:44:53 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:53 Wait for BufferSizeChannel
+2024/04/07 23:44:53 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:53 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:55 segmentName =  ocean-720p-5000k-32.ts
+2024/04/07 23:44:55 segmentLength =  733388
+2024/04/07 23:44:55 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:55 Wait for BufferSizeChannel
+2024/04/07 23:44:55 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:55 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:55 Received request for: /download/download.m3u8
+2024/04/07 23:44:55 Received request for: /download/download.m3u8
+2024/04/07 23:44:56 segmentName =  ocean-360p-1000k-33.ts
+2024/04/07 23:44:56 segmentLength =  146264
+2024/04/07 23:44:56 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:56 Wait for BufferSizeChannel
+2024/04/07 23:44:56 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:56 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:56 segmentName =  ocean-360p-1000k-34.ts
+2024/04/07 23:44:56 segmentLength =  133668
+2024/04/07 23:44:56 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:56 Wait for BufferSizeChannel
+2024/04/07 23:44:56 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:56 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:57 segmentName =  ocean-360p-1000k-35.ts
+2024/04/07 23:44:57 segmentLength =  135548
+2024/04/07 23:44:57 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:57 Wait for BufferSizeChannel
+2024/04/07 23:44:57 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:57 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:57 Received request for: /download/download.m3u8
+2024/04/07 23:44:57 Received request for: /download/download.m3u8
+2024/04/07 23:44:58 segmentName =  ocean-360p-1000k-36.ts
+2024/04/07 23:44:58 segmentLength =  126712
+2024/04/07 23:44:58 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:58 Wait for BufferSizeChannel
+2024/04/07 23:44:58 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:58 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:59 segmentName =  ocean-360p-1000k-37.ts
+2024/04/07 23:44:59 segmentLength =  118440
+2024/04/07 23:44:59 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:59 Wait for BufferSizeChannel
+2024/04/07 23:44:59 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:59 BufferSizeChannel has value:  3033.887
+2024/04/07 23:44:59 Received request for: /download/download.m3u8
+2024/04/07 23:44:59 Received request for: /download/download.m3u8
+2024/04/07 23:44:59 segmentName =  ocean-360p-1000k-38.ts
+2024/04/07 23:44:59 segmentLength =  122576
+2024/04/07 23:44:59 sendToClient, messageType is  bufferSize
+2024/04/07 23:44:59 Wait for BufferSizeChannel
+2024/04/07 23:44:59 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:44:59 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:00 segmentName =  ocean-360p-1000k-39.ts
+2024/04/07 23:45:00 segmentLength =  125020
+2024/04/07 23:45:00 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:00 Wait for BufferSizeChannel
+2024/04/07 23:45:00 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:00 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:01 segmentName =  ocean-360p-1000k-40.ts
+2024/04/07 23:45:01 segmentLength =  112800
+2024/04/07 23:45:01 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:01 Wait for BufferSizeChannel
+2024/04/07 23:45:01 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:01 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:01 Received request for: /download/download.m3u8
+2024/04/07 23:45:01 Received request for: /download/download.m3u8
+2024/04/07 23:45:01 segmentName =  ocean-360p-1000k-41.ts
+2024/04/07 23:45:01 segmentLength =  112236
+2024/04/07 23:45:01 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:01 Wait for BufferSizeChannel
+2024/04/07 23:45:01 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:01 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:02 segmentName =  ocean-360p-1000k-42.ts
+2024/04/07 23:45:02 segmentLength =  117688
+2024/04/07 23:45:02 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:02 Wait for BufferSizeChannel
+2024/04/07 23:45:02 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:02 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:03 segmentName =  ocean-360p-1000k-43.ts
+2024/04/07 23:45:03 segmentLength =  128028
+2024/04/07 23:45:03 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:03 Wait for BufferSizeChannel
+2024/04/07 23:45:03 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:03 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:03 Received request for: /download/download.m3u8
+2024/04/07 23:45:03 Received request for: /download/download.m3u8
+2024/04/07 23:45:04 segmentName =  ocean-360p-1000k-44.ts
+2024/04/07 23:45:04 segmentLength =  128592
+2024/04/07 23:45:04 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:04 Wait for BufferSizeChannel
+2024/04/07 23:45:04 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:04 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:04 segmentName =  ocean-360p-1000k-45.ts
+2024/04/07 23:45:04 segmentLength =  134984
+2024/04/07 23:45:04 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:04 Wait for BufferSizeChannel
+2024/04/07 23:45:04 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:04 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:05 segmentName =  ocean-360p-1000k-46.ts
+2024/04/07 23:45:05 segmentLength =  136864
+2024/04/07 23:45:05 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:05 Wait for BufferSizeChannel
+2024/04/07 23:45:05 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:05 Received request for: /download/download.m3u8
+2024/04/07 23:45:05 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:05 Received request for: /download/download.m3u8
+2024/04/07 23:45:06 segmentName =  ocean-360p-1000k-47.ts
+2024/04/07 23:45:06 segmentLength =  143256
+2024/04/07 23:45:06 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:06 Wait for BufferSizeChannel
+2024/04/07 23:45:06 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:06 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:07 segmentName =  ocean-360p-1000k-48.ts
+2024/04/07 23:45:07 segmentLength =  147956
+2024/04/07 23:45:07 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:07 Wait for BufferSizeChannel
+2024/04/07 23:45:07 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:07 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:07 Received request for: /download/download.m3u8
+2024/04/07 23:45:07 Received request for: /download/download.m3u8
+2024/04/07 23:45:08 segmentName =  ocean-360p-1000k-49.ts
+2024/04/07 23:45:08 segmentLength =  142128
+2024/04/07 23:45:08 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:08 Wait for BufferSizeChannel
+2024/04/07 23:45:08 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:08 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:09 segmentName =  ocean-360p-1000k-50.ts
+2024/04/07 23:45:09 segmentLength =  145324
+2024/04/07 23:45:09 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:09 Wait for BufferSizeChannel
+2024/04/07 23:45:09 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:09 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:09 Received request for: /download/download.m3u8
+2024/04/07 23:45:09 Received request for: /download/download.m3u8
+2024/04/07 23:45:10 segmentName =  ocean-360p-1000k-51.ts
+2024/04/07 23:45:10 segmentLength =  153784
+2024/04/07 23:45:10 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:10 Wait for BufferSizeChannel
+2024/04/07 23:45:10 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:10 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:10 segmentName =  ocean-360p-1000k-52.ts
+2024/04/07 23:45:10 segmentLength =  136488
+2024/04/07 23:45:10 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:10 Wait for BufferSizeChannel
+2024/04/07 23:45:10 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:10 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:10 segmentName =  ocean-480p-2500k-53.ts
+2024/04/07 23:45:10 segmentLength =  357012
+2024/04/07 23:45:10 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:10 Wait for BufferSizeChannel
+2024/04/07 23:45:10 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:10 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:10 segmentName =  ocean-1080p-8000k-54.ts
+2024/04/07 23:45:10 segmentLength =  1064832
+2024/04/07 23:45:10 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:10 Wait for BufferSizeChannel
+2024/04/07 23:45:10 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:10 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:10 segmentName =  ocean-1080p-8000k-55.ts
+2024/04/07 23:45:10 segmentLength =  1020840
+2024/04/07 23:45:10 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:10 Wait for BufferSizeChannel
+2024/04/07 23:45:10 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:10 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:10 segmentName =  ocean-1080p-8000k-56.ts
+2024/04/07 23:45:10 segmentLength =  952220
+2024/04/07 23:45:10 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:10 Wait for BufferSizeChannel
+2024/04/07 23:45:10 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:10 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:10 segmentName =  ocean-1080p-8000k-57.ts
+2024/04/07 23:45:10 segmentLength =  914620
+2024/04/07 23:45:10 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:10 Wait for BufferSizeChannel
+2024/04/07 23:45:10 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:10 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:10 segmentName =  ocean-1080p-8000k-58.ts
+2024/04/07 23:45:10 segmentLength =  877020
+2024/04/07 23:45:10 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:10 Wait for BufferSizeChannel
+2024/04/07 23:45:10 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:10 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:10 segmentName =  ocean-1080p-8000k-59.ts
+2024/04/07 23:45:10 segmentLength =  181608
+2024/04/07 23:45:10 sendToClient, messageType is  bufferSize
+2024/04/07 23:45:10 Wait for BufferSizeChannel
+2024/04/07 23:45:10 in updateBufferSize, the remainBuffer is  3033.887
+2024/04/07 23:45:10 BufferSizeChannel has value:  3033.887
+2024/04/07 23:45:10 Failed to start server: accept tcp [::]:8080: acceptex: Either the application has not called WSAStartup, or WSAStartup failed.

@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/hytidel/Desktop/exp3/exp3.2/target/scala-2.12/exp3-2_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Decoder$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hytidel/Desktop/exp3/exp3.2/target/scala-2.12/classes/Decoder$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Combination.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hytidel/Desktop/exp3/exp3.2/target/scala-2.12/classes/Combination.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Register.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hytidel/Desktop/exp3/exp3.2/target/scala-2.12/classes/Register.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Register$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hytidel/Desktop/exp3/exp3.2/target/scala-2.12/classes/Register$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Decoder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hytidel/Desktop/exp3/exp3.2/target/scala-2.12/classes/Decoder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Instruction$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hytidel/Desktop/exp3/exp3.2/target/scala-2.12/classes/Instruction$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Combination$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hytidel/Desktop/exp3/exp3.2/target/scala-2.12/classes/Combination$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Instruction.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hytidel/Desktop/exp3/exp3.2/target/scala-2.12/classes/Instruction.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RegisterFile$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hytidel/Desktop/exp3/exp3.2/target/scala-2.12/classes/RegisterFile$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RegisterFile.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hytidel/Desktop/exp3/exp3.2/target/scala-2.12/classes/RegisterFile.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Register$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hytidel/Desktop/exp3/exp3.2/target/scala-2.12/classes/Register$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

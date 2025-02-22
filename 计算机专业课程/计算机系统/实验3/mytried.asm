@@ -1,0 +1,12 @@
+.ORIG 0x3000
+
+;ц╟ещеепР
+AND R1,R1,#0
+ADD R1,R1,#15
+LD R2,#1
+
+HALT
+
+ldFile .FILL x0200
+
+.END

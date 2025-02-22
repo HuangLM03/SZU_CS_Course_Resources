@@ -1,0 +1,66 @@
+.ORIG x3000
+
+; 初始化栈指针
+LD R6, NUM
+
+;设置键盘中断表项
+LD R2, INTERUPT
+STI R2, KEY
+
+;设置键盘中断使能位
+LD R1, NUM
+STI R1, KBSR
+
+;循环打印ICS
+AND R1, R1, #0
+AND R2, R2, #0
+ADD R1, R1, #6
+ADD R2, R2, #1
+LOOP
+ADD R2, R2, #0 ;根据R2的正负性判断输出哪一个字符串
+BRn ST2
+ST1
+LEA R0, STR1
+BRnzp PRINT
+ST2
+LEA R0, STR2
+PRINT
+PUTS
+JSR DELAY ;延时输出
+ADD R1, R1, #-1
+BRp LOOP
+LD R0, ENTER
+OUT ;换行
+ADD R2, R2, #0
+BRn SET6
+SET5
+AND R1, R1, #0
+ADD R1, R1, #5
+BRnzp NOTR2
+SET6
+AND R1, R1, #0
+ADD R1, R1, #6
+NOTR2
+NOT R2, R2
+ADD R2, R2, #1
+BRnzp LOOP
+HALT
+
+;文档提供的延时输出
+DELAY   ST  R1, SaveR1
+        LD  R1, COUNT
+REP     ADD R1,R1,#-1
+        BRp REP
+        LD  R1, SaveR1
+        RET
+COUNT   .FILL #10000 ;自行将数值改大，方便观察
+SaveR1  .BLKW 1
+
+NUM .FILL x4000
+INTERUPT .FILL x2000
+KEY .FILL x0180
+KBSR .FILL xFE00
+ENTER .FILL x000A
+STR1 .STRINGZ "ICS    "
+STR2 .STRINGZ "    ICS"
+.END

@@ -1,0 +1,39 @@
+%% 输入矩阵
+A = [1 1 2 1 ;...
+    1 2 0 1 ;...
+    1 4 2 1 ; ...
+    1 8 2 4 ];
+b = [ 2 0 2 3];
+%% 预处理
+disp("预处理中...");
+[row_A, col_A] = size(A);
+[row_B, col_B] = size(b);
+AM = cat(2, A, b');
+[row_AM, col_AM] = size(AM);
+disp("与处理完成...");
+%% 高斯消元求解
+disp("高斯消元求解中...");
+if row_A < col_A
+    disp("无解");
+else 
+    for i = 1 : row_AM
+        [~, idx] = max(abs(AM(i : row_AM, i)));
+        idx = idx + i - 1;
+        AM([i, idx],:) = AM([idx, i], :);
+    
+        AM(i, :) = AM(i, :) ./ AM(i, i);
+        for j = 1 : row_AM
+            if j ~= i
+                AM(j, :) = AM(j, :) - AM(j, i) * AM(i, :);
+            end
+        end
+    end
+end
+disp("求解结束...");
+%% 输出解
+disp("线性方程组的解为：");
+disp(AM(:, row_A + 1));
+%% 验证解的准确性
+disp("利用解反求b得到的dev_b为")
+dev_b = A * AM(:, row_A + 1);
+disp(dev_b);

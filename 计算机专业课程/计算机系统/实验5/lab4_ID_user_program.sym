@@ -1,0 +1,20 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	COUNT                   3025
+//	DELAY                   301F
+//	ENTER                   302B
+//	INTERUPT                3028
+//	KBSR                    302A
+//	KEY                     3029
+//	LOOP                    3009
+//	NOTR2                   301B
+//	NUM                     3027
+//	PRINT                   300E
+//	REP                     3021
+//	SET5                    3016
+//	SET6                    3019
+//	ST1                     300B
+//	ST2                     300D
+//	STR1                    302C
+//	STR2                    3034
+//	SaveR1                  3026

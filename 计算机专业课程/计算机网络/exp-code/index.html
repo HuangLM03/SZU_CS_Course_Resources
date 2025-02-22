@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+    <script src="https://unpkg.com/video.js/dist/video.js"></script>
+</head>
+
+<body>
+    <h1 style="text-align: center">Live Video 播放器</h1>
+    <div style="text-align: center;">
+        <video id="my-video" class="video-js vjs-default-skin" controls preload="auto" width="800" height="450"
+            style="display: inline-block;">
+            <source src="http://localhost:8080/download/download.m3u8" type="application/x-mpegURL">
+        </video>
+    </div>
+
+    <script>
+        let player = videojs('my-video', {
+            controlBar: {
+                progressControl: false // 隐藏进度条
+            }
+        });
+
+        let bufferStart = 0;
+        let totalBufferTime = 0;
+        let hasStartedPlaying = false; // 新增标志，表示视频是否已经开始播放
+
+        let ws = new WebSocket("ws://localhost:8080/ws");
+
+        // 定义一个异步函数来处理fetch请求
+        async function updateBufferSize(remainBuffer) {
+            try {
+                const response = await fetch(`http://localhost:8080/video-event?event=updateBufferSize&remainBuffer=${remainBuffer}`);
+                console.log("async wait for the fetch, ", remainBuffer);
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+        ws.onmessage = function (event) {
+            var msg = JSON.parse(event.data);
+            // console.log("Received: ", msg);
+            // 根据消息类型进行不同的处理
+            switch (msg.type) {
+                case "bufferSize":
+                    // console.log("bufferSize: ", msg.content);
+                    let currentTime = player.currentTime();
+                    // 获取已缓冲的范围
+                    let buffered = player.buffered();
+                    let bufferedEnd = buffered.length > 0 ? buffered.end(buffered.length - 1) : 0;
+                    let remainBuffer = (bufferedEnd - currentTime) * 1000;
+                    console.log("bufferedEnd, currentTime: ", bufferedEnd, currentTime);
+                    // 立即调用的异步函数表达式 (IIFE) 来等待 updateBufferSize 完成
+                    (async () => {
+                        await updateBufferSize(remainBuffer);
+                    })();
+                    break;
+                case "rebufferingTime":
+                    if (bufferStart !== 0) { // 确保之前已经开始了卡顿，在这里无需重置bufferStart
+                        let bufferEnd = Date.now();
+                        let bufferDuration = bufferEnd - bufferStart;
+                        console.log(`For rebufferingTime . Duration: ${bufferDuration}ms`);
+                        fetch(`http://localhost:8080/video-event?event=notifyRebufferingTime&bufferDuration=${bufferDuration}`)
+                            .then(response => response.text())
+                            .catch(error => console.error('Error:', error));
+                    } else {
+                        console.log("no rebuffering");
+                        fetch(`http://localhost:8080/video-event?event=notifyRebufferingTime&bufferDuration=${0}`)
+                            .then(response => response.text())
+                            .catch(error => console.error('Error:', error));
+                    }
+                    break;
+            }
+        };
+
+        ws.onerror = function (error) {
+            console.log("WebSocket error: ", error);
+        };
+
+        ws.onclose = function () {
+            console.log("Disconnected from server.");
+        };
+
+        // 监听视频开始播放事件
+        player.one('play', function () {
+            hasStartedPlaying = true; // 当视频开始播放时，设置标志为true
+            fetch('http://localhost:8080/video-event?event=play')
+                .then(response => response.text())
+                .catch(error => console.error('Error:', error));
+        });
+
+        // 监听 waiting 事件
+        player.on('waiting', function () {
+            if (hasStartedPlaying == true) {
+                hasStartedPlaying = false
+                return
+            }
+            bufferStart = Date.now();
+
+            console.log('Buffering starts...');
+            fetch(`http://localhost:8080/video-event?event=updateBlockingTime&blockingTime=${bufferStart}`)
+                .then(response => response.text())
+                .catch(error => console.error('Error:', error));
+        });
+
+        // 监听视频结束事件，发送请求至服务器
+        player.on('ended', function () {
+            fetch('http://localhost:8080/video-event?event=ended')
+                .then(response => response.text())
+                .catch(error => console.error('Error:', error));
+        });
+
+        player.on('playing', function () {
+            if (bufferStart !== 0) { // 确保之前已经开始了卡顿
+                let bufferEnd = Date.now();
+                let bufferDuration = bufferEnd - bufferStart;
+                totalBufferTime += bufferDuration; // 累加到总卡顿时间 , Total Buffering Time: ${totalBufferTime}ms
+                // console.log(`Buffering ends. Duration: ${bufferDuration}ms`);
+                bufferStart = 0; // 重置卡顿开始时间
+
+                // fetch(`http://localhost:8080/video-event?event=notifyRebufferingTime&bufferDuration=${bufferDuration}`)
+                //     .then(response => response.text())
+                //     .catch(error => console.error('Error:', error));
+            }
+        });
+
+        player.muted(true);
+        // 尝试播放视频
+        player.play();
+
+    </script>
+
+</body>
+
+</html>

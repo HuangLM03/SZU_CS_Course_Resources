@@ -1,0 +1,23 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	GA                      3045
+//	GB                      3046
+//	bubble_sort             3002
+//	endA                    3031
+//	endB                    3040
+//	endbubble_sort          3016
+//	endisA                  302E
+//	endisB                  303D
+//	endswap                 3011
+//	endwhile                3014
+//	endwrite                3021
+//	gradeA                  3029
+//	gradeB                  3038
+//	if                      300E
+//	isA                     302C
+//	isB                     303B
+//	ld_file                 3042
+//	st_A                    3044
+//	st_file                 3043
+//	while                   3008
+//	write                   301A
