@@ -1,0 +1,2 @@
+# SZU_CS_Course_Resources
+本仓库存放深圳大学CS本科的课程资源
